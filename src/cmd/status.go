@@ -8,7 +8,7 @@ import (
 var statusCommand = &cobra.Command{
 	Use:   "status",
 	Short: "Returns current status of repository",
-	Run:   runCommit,
+	Run:   runStatus,
 }
 
 func init() {
