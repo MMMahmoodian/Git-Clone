@@ -1,7 +1,6 @@
 package cmd
 
 import (
-	"fmt"
 	"github.com/spf13/cobra"
 )
 
@@ -16,5 +15,5 @@ func init() {
 }
 
 func runStatus(cmd *cobra.Command, args []string) {
-	fmt.Println("Running status command")
+	cmd.Println("Running status command")
 }
